@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "Itim";
-  src: url("Itim-Regular.woff") format("woff"), url("Itim-Regular.woff2") format("woff2"), url("Itim-Regular.ttf") format("ttf");
-}
 body {
   background-color: #ffbac7;
   display: grid;
