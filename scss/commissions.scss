@@ -1,21 +1,20 @@
 @font-face {
   font-family: "Itim";
-  src: url(Itim-Regular.ttf) format("truetype");
+  src: url("Itim-Regular.woff") format("woff"),
+       url("Itim-Regular.woff2") format("woff2"),
+       url("Itim-Regular.ttf") format("ttf");
 }
 
 body {
   background-color: #ffbac7;
   display: grid;
   font-family: "Itim";
-  src: url(Itim-Regular.ttf) format("truetype");
   justify-content: center;
-
 }
 
 a {
   text-decoration: none;
   color: #ff7e9d;
-  
 }
 
 #block {
@@ -65,13 +64,13 @@ a {
       font-size: 23px;
     }
 
-    .subheader{
+    .subheader {
       font-size: 23px;
       font-weight: 600;
       color: #ff7e9d;
     }
 
-    #sheet{
+    #sheet {
       width: 40%;
       border-radius: 20px;
       margin-bottom: 5px;
@@ -85,7 +84,8 @@ a {
       border-collapse: collapse;
       margin-bottom: 20px;
 
-      td, th {
+      td,
+      th {
         text-align: left;
         padding: 8px;
         border: 1px solid #c9b5b5;
@@ -98,8 +98,8 @@ a {
       }
     }
 
-    button{
-      background-color: #FF7E9D;
+    button {
+      background-color: #ff7e9d;
       border: 0px;
       width: 30%;
       height: 40px;
@@ -108,18 +108,18 @@ a {
       font-size: 20px;
       border-radius: 25px;
       cursor: pointer;
-  
-      @media only screen and (max-width: 700px) {
-          width: 100%;
-          max-width: 100%;
-        }
 
-        &:hover {
-          background-color: #f35e81;
-        }
+      @media only screen and (max-width: 700px) {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      &:hover {
+        background-color: #f35e81;
+      }
     }
 
-    #art{
+    #art {
       width: 100%;
       margin-top: 10px;
       margin-bottom: 10px;
@@ -131,7 +131,7 @@ a {
       display: none;
       background-color: #f5ebef;
       border-radius: 20px;
-      img{
+      img {
         width: 250px;
 
         @media only screen and (max-width: 700px) {
