@@ -2,6 +2,7 @@ body {
   background-color: #ffbac7;
   display: grid;
   font-family: "Itim";
+  src: url(Itim-Regular);
   justify-content: center;
 }
 
