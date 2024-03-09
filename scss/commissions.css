@@ -1,0 +1,137 @@
+body {
+  background-color: #ffbac7;
+  display: grid;
+  font-family: "Itim";
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ff7e9d;
+}
+
+#block {
+  background-color: white;
+  width: 70vw;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 4px 50px #fd8e8e;
+  overflow: hidden;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 900px) {
+  #block {
+    flex-direction: column;
+    width: 80vw;
+  }
+}
+#block #intro {
+  width: 100%;
+  font-family: "Itim";
+}
+@media only screen and (max-width: 900px) {
+  #block #intro {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+#block #intro #back {
+  color: #a31333;
+  font-size: 20px;
+  margin: 0;
+  cursor: pointer;
+}
+#block #intro #back:hover {
+  color: #db6f87;
+}
+#block #intro #title {
+  color: #ff7e9d;
+  font-size: 45px;
+  margin: 0;
+}
+#block #intro #status {
+  font-weight: 600;
+  font-size: 23px;
+}
+#block #intro .subheader {
+  font-size: 23px;
+  font-weight: 600;
+  color: #ff7e9d;
+}
+#block #intro #sheet {
+  width: 40%;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 750px) {
+  #block #intro #sheet {
+    width: 100%;
+  }
+}
+#block #intro table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+#block #intro table td, #block #intro table th {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #c9b5b5;
+  width: auto;
+  font-weight: 500;
+}
+#block #intro table tr:nth-child(1) {
+  background-color: #ffe2ef;
+}
+#block #intro button {
+  background-color: #FF7E9D;
+  border: 0px;
+  width: 30%;
+  height: 40px;
+  font-family: "Itim";
+  color: white;
+  font-size: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+  #block #intro button {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+#block #intro button:hover {
+  background-color: #f35e81;
+}
+#block #intro #art {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: none;
+  background-color: #f5ebef;
+  border-radius: 20px;
+}
+#block #intro #art img {
+  width: 250px;
+}
+@media only screen and (max-width: 700px) {
+  #block #intro #art img {
+    width: 100%;
+  }
+}
+#block #intro #text {
+  color: #472c30;
+}
+#block #intro #text mark.pink {
+  color: #ff7e9d;
+  background: none;
+  font-weight: 700;
+}
+#block #intro #text #twitterlink {
+  cursor: pointer;
+  text-decoration: none;
+}/*# sourceMappingURL=commissions.css.map */

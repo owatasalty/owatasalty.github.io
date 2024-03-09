@@ -1,0 +1,101 @@
+body {
+  background-color: #ffbac7;
+  display: grid;
+  font-family: "Itim";
+  min-height: 100vh;
+  margin: 0;
+}
+@media only screen and (max-width: 900px) {
+  body {
+    min-height: 0;
+  }
+}
+
+#block {
+  background-color: white;
+  width: 50vw;
+  height: auto;
+  place-self: center;
+  border-radius: 20px;
+  box-shadow: 0px 4px 50px #fd8e8e;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 900px) {
+  #block {
+    flex-direction: column;
+    width: 80vw;
+  }
+}
+#block #maidon {
+  width: 50%;
+  max-width: 50%;
+  place-self: center;
+  display: grid;
+  cursor: pointer;
+}
+#block #maidon img {
+  width: 70%;
+  place-self: center;
+}
+@media only screen and (max-width: 550px) {
+  #block #maidon img {
+    width: 100%;
+  }
+}
+#block #intro {
+  max-width: 50%;
+  width: 50%;
+  font-family: "Itim";
+}
+@media only screen and (max-width: 900px) {
+  #block #intro {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+#block #intro #title {
+  color: #ff7e9d;
+  font-size: 60px;
+  margin: 0;
+}
+#block #intro #text {
+  color: #472c30;
+}
+#block #intro #text mark.pink {
+  color: #ff7e9d;
+  background: none;
+  font-weight: 700;
+}
+#block #intro #socials {
+  margin-bottom: 20px;
+}
+#block #intro #socials img {
+  width: 30px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+#block button {
+  background-color: #FF7E9D;
+  border: 0px;
+  width: 80%;
+  height: 40px;
+  font-family: "Itim";
+  color: white;
+  font-size: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+  #block button {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+#block button:hover {
+  background-color: #f35e81;
+}/*# sourceMappingURL=style.css.map */

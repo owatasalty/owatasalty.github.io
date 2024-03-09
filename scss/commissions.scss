@@ -1,0 +1,152 @@
+
+body {
+  background-color: #ffbac7;
+  display: grid;
+  font-family: "Itim";
+  justify-content: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: #ff7e9d;
+  
+}
+
+#block {
+  background-color: white;
+  width: 70vw;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 4px 50px #fd8e8e;
+  overflow: hidden;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+    width: 80vw;
+  }
+
+  #intro {
+    width: 100%;
+    font-family: "Itim";
+
+    @media only screen and (max-width: 900px) {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    #back {
+      color: #a31333;
+      font-size: 20px;
+      margin: 0;
+      cursor: pointer;
+
+      &:hover {
+        color: #db6f87;
+      }
+    }
+
+    #title {
+      color: #ff7e9d;
+      font-size: 45px;
+      margin: 0;
+    }
+
+    #status {
+      font-weight: 600;
+      font-size: 23px;
+    }
+
+    .subheader{
+      font-size: 23px;
+      font-weight: 600;
+      color: #ff7e9d;
+    }
+
+    #sheet{
+      width: 40%;
+      border-radius: 20px;
+      margin-bottom: 5px;
+
+      @media only screen and (max-width: 750px) {
+        width: 100%;
+      }
+    }
+
+    table {
+      border-collapse: collapse;
+      margin-bottom: 20px;
+
+      td, th {
+        text-align: left;
+        padding: 8px;
+        border: 1px solid #c9b5b5;
+        width: auto;
+        font-weight: 500;
+      }
+
+      tr:nth-child(1) {
+        background-color: #ffe2ef;
+      }
+    }
+
+    button{
+      background-color: #FF7E9D;
+      border: 0px;
+      width: 30%;
+      height: 40px;
+      font-family: "Itim";
+      color: white;
+      font-size: 20px;
+      border-radius: 25px;
+      cursor: pointer;
+  
+      @media only screen and (max-width: 700px) {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        &:hover {
+          background-color: #f35e81;
+        }
+    }
+
+    #art{
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      text-align: center;
+      display: none;
+      background-color: #f5ebef;
+      border-radius: 20px;
+      img{
+        width: 250px;
+
+        @media only screen and (max-width: 700px) {
+          width: 100%;
+        }
+      }
+    }
+
+    #text {
+      color: #472c30;
+      mark.pink {
+        color: #ff7e9d;
+        background: none;
+        font-weight: 700;
+      }
+
+      #twitterlink {
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+  }
+}
